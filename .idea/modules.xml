@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Creational/Abstract-Factory/Abstract-Factory.iml" filepath="$PROJECT_DIR$/Creational/Abstract-Factory/Abstract-Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational/Builder/Builder.iml" filepath="$PROJECT_DIR$/Creational/Builder/Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design-Patterns.iml" filepath="$PROJECT_DIR$/Design-Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational/Factory-Method/Factory-Method.iml" filepath="$PROJECT_DIR$/Creational/Factory-Method/Factory-Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Creational/Prototype/Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational/Simple-Factory/Simple-Factory.iml" filepath="$PROJECT_DIR$/Creational/Simple-Factory/Simple-Factory.iml" />
+    </modules>
+  </component>
+</project>
