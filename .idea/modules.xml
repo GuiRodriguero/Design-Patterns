@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Creational/Factory-Method/Factory-Method.iml" filepath="$PROJECT_DIR$/Creational/Factory-Method/Factory-Method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Creational/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Simple-Factory/Simple-Factory.iml" filepath="$PROJECT_DIR$/Creational/Simple-Factory/Simple-Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Creational/Singleton/Singleton.iml" />
     </modules>
   </component>
 </project>
