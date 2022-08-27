@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Design-Patterns.iml" filepath="$PROJECT_DIR$/Design-Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Facade/Facade.iml" filepath="$PROJECT_DIR$/Structural/Facade/Facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Factory-Method/Factory-Method.iml" filepath="$PROJECT_DIR$/Creational/Factory-Method/Factory-Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Structural/Flyweight/Flyweight.iml" filepath="$PROJECT_DIR$/Structural/Flyweight/Flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Object-Pool/Object-Pool.iml" filepath="$PROJECT_DIR$/Creational/Object-Pool/Object-Pool.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Creational/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Simple-Factory/Simple-Factory.iml" filepath="$PROJECT_DIR$/Creational/Simple-Factory/Simple-Factory.iml" />
