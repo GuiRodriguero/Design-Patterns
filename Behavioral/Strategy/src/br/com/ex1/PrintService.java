@@ -10,7 +10,7 @@ public class PrintService {
     private OrderPrinter strategy;
 
     /**
-     * Quando a regra de negócio quiser printar a lista de br.com.ex1.Order, ela irá instanciar esta
+     * Quando a regra de negócio quiser printar a lista de Order, ela irá instanciar esta
      * classe passando qual estratégia será usada
      * @param strategy
      */

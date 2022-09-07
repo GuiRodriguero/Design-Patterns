@@ -7,12 +7,15 @@
       <module fileurl="file://$PROJECT_DIR$/Structural/Bridge/Bridge.iml" filepath="$PROJECT_DIR$/Structural/Bridge/Bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Builder/Builder.iml" filepath="$PROJECT_DIR$/Creational/Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral/ChainOfResposibility/ChainOfResposibility.iml" filepath="$PROJECT_DIR$/Behavioral/ChainOfResposibility/ChainOfResposibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/Command/Command.iml" filepath="$PROJECT_DIR$/Behavioral/Command/Command.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Composite/Composite.iml" filepath="$PROJECT_DIR$/Structural/Composite/Composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Structural/Decorator/Decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design-Patterns.iml" filepath="$PROJECT_DIR$/Design-Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Facade/Facade.iml" filepath="$PROJECT_DIR$/Structural/Facade/Facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Factory-Method/Factory-Method.iml" filepath="$PROJECT_DIR$/Creational/Factory-Method/Factory-Method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Flyweight/Flyweight.iml" filepath="$PROJECT_DIR$/Structural/Flyweight/Flyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/Interpreter/Interpreter.iml" filepath="$PROJECT_DIR$/Behavioral/Interpreter/Interpreter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/Iterator/Iterator.iml" filepath="$PROJECT_DIR$/Behavioral/Iterator/Iterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Object-Pool/Object-Pool.iml" filepath="$PROJECT_DIR$/Creational/Object-Pool/Object-Pool.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Creational/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Structural/Proxy/Proxy.iml" />
