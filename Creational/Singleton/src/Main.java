@@ -8,5 +8,9 @@ public class Main {
         LazyRegisterWithDLC lazyRegister = LazyRegisterWithDLC.getInstance();
         LazyRegisterWithDLC lazyRegister2 = LazyRegisterWithDLC.getInstance();
         System.out.println(lazyRegister == lazyRegister2); //true
+
+        RegistryEnum enumSingleton = RegistryEnum.INSTANCE;
+        RegistryEnum enumSingleton2 = RegistryEnum.INSTANCE;
+        System.out.println(enumSingleton == enumSingleton2);
     }
 }

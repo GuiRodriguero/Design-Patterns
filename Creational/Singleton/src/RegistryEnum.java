@@ -7,6 +7,6 @@ public enum RegistryEnum {
     INSTANCE;
 
     public void getConfiguration(){
-
+        System.out.println("Singleton Criada");
     }
 }
