@@ -16,12 +16,18 @@
       <module fileurl="file://$PROJECT_DIR$/Structural/Flyweight/Flyweight.iml" filepath="$PROJECT_DIR$/Structural/Flyweight/Flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral/Interpreter/Interpreter.iml" filepath="$PROJECT_DIR$/Behavioral/Interpreter/Interpreter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral/Iterator/Iterator.iml" filepath="$PROJECT_DIR$/Behavioral/Iterator/Iterator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/Memento/Memento.iml" filepath="$PROJECT_DIR$/Behavioral/Memento/Memento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/NullObject/NullObject.iml" filepath="$PROJECT_DIR$/Behavioral/NullObject/NullObject.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Object-Pool/Object-Pool.iml" filepath="$PROJECT_DIR$/Creational/Object-Pool/Object-Pool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/Observer/Observer.iml" filepath="$PROJECT_DIR$/Behavioral/Observer/Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Creational/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Structural/Proxy/Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Simple-Factory/Simple-Factory.iml" filepath="$PROJECT_DIR$/Creational/Simple-Factory/Simple-Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Creational/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/State/State.iml" filepath="$PROJECT_DIR$/Behavioral/State/State.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Behavioral/Strategy/Strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/TemplateMethod/TemplateMethod.iml" filepath="$PROJECT_DIR$/Behavioral/TemplateMethod/TemplateMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/Vsitor/Vsitor.iml" filepath="$PROJECT_DIR$/Behavioral/Vsitor/Vsitor.iml" />
     </modules>
   </component>
 </project>
