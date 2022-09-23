@@ -1,3 +1,5 @@
+package br.com.ex1;
+
 /**
  * Esta classe tem o intuito de demonstrar a criação de Singletons do tipo Eager
  * Eager -> Cria a instância no momento em que a classe é carregada (não esperamos que alguém peça pela instância

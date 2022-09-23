@@ -1,3 +1,5 @@
+package br.com.ex1;
+
 /**
  * Esta classe tem o intuito de demonstrar a criação de Singletons do tipo Lazy com uma classe Holder
  * Neste caso, como podemos ver, não temos uma checagem para saber se a instância é nula, mas isso não é um problema

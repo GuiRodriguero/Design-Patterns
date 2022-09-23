@@ -35,7 +35,7 @@ public class Main {
     }
 
     private static LeaveApplication buildLeaveApplication(LeaveApplicationBuilder builder){
-        return builder.withType(Type.SICK).from(LocalDate.now()).to(LocalDate.of(2022, 10, 22))
+        return builder.withType(Type.SICK).from(LocalDate.now()).to(LocalDate.of(2022, 10, 20))
                 .build();
     }
 }

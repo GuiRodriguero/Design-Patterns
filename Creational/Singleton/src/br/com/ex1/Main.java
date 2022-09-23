@@ -1,6 +1,8 @@
+package br.com.ex1;
+
 public class Main {
     public static void main(String[] args) {
-        //EagerRegister eagerRegister = new EagerRegister(); ERRO POIS É SINGLETON (CONSTRUTOR PRIVADO)
+        //br.com.ex1.EagerRegister eagerRegister = new br.com.ex1.EagerRegister(); ERRO POIS É SINGLETON (CONSTRUTOR PRIVADO)
         EagerRegister eagerRegister = EagerRegister.getInstance();
         EagerRegister eagerRegister2 = EagerRegister.getInstance();
         System.out.println(eagerRegister == eagerRegister2); //true

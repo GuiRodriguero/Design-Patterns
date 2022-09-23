@@ -1,3 +1,5 @@
+package br.com.ex1;
+
 /**
  * Adapter do tipo ObjectAdapter, caracterizado por usar composição ao invés de herança
  */

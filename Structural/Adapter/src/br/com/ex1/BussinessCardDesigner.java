@@ -1,5 +1,7 @@
+package br.com.ex1;
+
 /**
- * Código alvo que exige a interface Customer
+ * Código alvo que exige a interface br.com.ex1.Customer
  */
 public class BussinessCardDesigner {
 

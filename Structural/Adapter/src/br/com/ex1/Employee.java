@@ -1,9 +1,11 @@
+package br.com.ex1;
+
 /**
  * Classe que tem a funcionalidade que queremos, porém não implementa a classe que o código alvo exige
  *
  * Aqui temos algumas diferenças em relação a interface alvo ({@link Customer}), porém temos alguns atributos que
  * podem ser substitutos diretos, como:
- * Employee -> Customer
+ * br.com.ex1.Employee -> br.com.ex1.Customer
  * fullName -> name
  * jobTitle -> designation
  * officeLocation -> address

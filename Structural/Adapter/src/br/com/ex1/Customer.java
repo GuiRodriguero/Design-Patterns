@@ -1,3 +1,5 @@
+package br.com.ex1;
+
 /**
  * Interface alvo
  */

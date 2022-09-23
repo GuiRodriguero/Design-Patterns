@@ -1,3 +1,5 @@
+package br.com.ex1;
+
 /**
  * Adapter do tipo ClassAdapter (caracterizado por herdar a classe que tem a funcionalidade desejada)
  * <p></p>

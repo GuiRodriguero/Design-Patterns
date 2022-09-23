@@ -27,7 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/Behavioral/State/State.iml" filepath="$PROJECT_DIR$/Behavioral/State/State.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Behavioral/Strategy/Strategy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral/TemplateMethod/TemplateMethod.iml" filepath="$PROJECT_DIR$/Behavioral/TemplateMethod/TemplateMethod.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Behavioral/Vsitor/Vsitor.iml" filepath="$PROJECT_DIR$/Behavioral/Vsitor/Vsitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/Visitor/Visitor.iml" filepath="$PROJECT_DIR$/Behavioral/Visitor/Visitor.iml" />
     </modules>
   </component>
 </project>

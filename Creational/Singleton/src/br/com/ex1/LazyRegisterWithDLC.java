@@ -1,3 +1,5 @@
+package br.com.ex1;
+
 /**
  * Esta classe tem o intuito de demonstrar a criação de Singletons do tipo Lazy
  * Lazy -> Não criamos a instância a não ser que alguém a peça
