@@ -9,11 +9,11 @@ import java.util.List;
 /**
  * Context
  */
-public class ShoppingCart {
+public class CarrinhoDeCompras {
     //List of items
     List<Item> items;
 
-    public ShoppingCart(){
+    public CarrinhoDeCompras(){
         this.items=new ArrayList<>();
     }
 
@@ -25,21 +25,20 @@ public class ShoppingCart {
         this.items.remove(item);
     }
 
-    public int calculateTotal(){
-        int sum = 0;
+    public int calcularTotal(){
+        int soma = 0;
         for(Item item : items){
-            sum += item.getPrice();
+            soma += item.getPrice();
         }
-        return sum;
+        return soma;
     }
 
-    public String pay(TipoPagamento tipo){
+    public void pagar(TipoPagamento tipo){
+        int total = calcularTotal();
         if(tipo == CREDIT){
-            return "Pagando com Cartão de Crédito";
+            System.out.println("Pagando " + total + " com Cartão de Crédito");
         }else if(tipo == PAYPAL){
-            return  "Pagando com PayPal";
-        }else{
-            return "Tipo de Pagamento inválido";
+            System.out.println("Pagando " + total + " com PayPal");
         }
     }
 }
