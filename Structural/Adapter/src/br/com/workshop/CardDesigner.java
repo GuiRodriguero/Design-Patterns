@@ -5,10 +5,10 @@ package br.com.workshop;
  */
 public class CardDesigner {
 
-    public String designCard(Cliente customer){
+    public String designCard(Cliente cliente){
         String card = "";
-        card += customer.getNome();
-        card += "\n" + customer.getEndereco();
+        card += cliente.getNome();
+        card += "\n" + cliente.getEndereco();
         return card;
     }
 }

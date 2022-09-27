@@ -12,9 +12,9 @@ public class Main {
 
         /*
         * Chain Pattern:
-        * 1 - Interface/Classe abstrata Desconto (private Desconto sucessor, getters, setter, construtor)
+        * 1 - (Handler) Interface/Classe abstrata Desconto (private Desconto sucessor, getters, setter, construtor)
         * 2 - Método abstrato em Desconto para calcular o desconto (refatorando o que temos logo abaixo)
-        * 3 - Criar as implementações de Desconto (por quantidade de valor) implementando calcular e o construtor
+        * 3 - (Elos da Chain) Criar as implementações de Desconto (por quantidade de valor) implementando calcular e o construtor
         * 4 - Criar método Desconto createChain aqui no Main
         * 5 - no main() -> Instanciar Desconto e chamar/printar o método de calcular*/
 
