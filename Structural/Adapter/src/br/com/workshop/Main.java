@@ -3,9 +3,9 @@ package br.com.workshop;
 public class Main {
     public static void main(String[] args) {
         //Usando ObjectAdapter
-        Funcionario employee = populateEmployee();
+        Funcionario funcionario = populateEmployee();
         CardDesigner cardDesigner = new CardDesigner();
-//        String card2 = cardDesigner.designCard(employee);
+//        String card2 = cardDesigner.designCard(funcionario);
 //        System.out.println(card2);
 
         /*
