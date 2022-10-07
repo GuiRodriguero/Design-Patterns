@@ -1,19 +1,19 @@
 package br.com.workshop;
 
 public class Item {
-    private String upcCode;
-    private int price;
+    private String codigo;
+    private int preco;
 
-    public Item(String upc, int cost){
-        this.upcCode=upc;
-        this.price=cost;
+    public Item(String codigo, int preco){
+        this.codigo = codigo;
+        this.preco = preco;
     }
 
-    public String getUpcCode() {
-        return upcCode;
+    public String getCodigo() {
+        return codigo;
     }
 
-    public int getPrice() {
-        return price;
+    public int getPreco() {
+        return preco;
     }
 }
