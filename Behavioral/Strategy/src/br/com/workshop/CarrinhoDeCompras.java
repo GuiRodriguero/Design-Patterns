@@ -1,10 +1,10 @@
 package br.com.workshop;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import static br.com.workshop.TipoPagamento.CREDIT;
 import static br.com.workshop.TipoPagamento.PAYPAL;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Context
@@ -26,11 +26,9 @@ public class CarrinhoDeCompras {
     }
 
     public int calcularTotal(){
-        int soma = 0;
-        for(Item item : items){
-            soma += item.getPreco();
-        }
-        return soma;
+        return items.stream()
+                .mapToInt(Item::getPreco)
+                .sum();
     }
 
     public void pagar(TipoPagamento tipo){

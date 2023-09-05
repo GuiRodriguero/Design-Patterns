@@ -11,12 +11,29 @@ public class Main {
         calcularDesconto(pedido3);
 
         /*
-        * Chain Pattern:
-        * 1 - (Handler) Interface/Classe abstrata Desconto (private Desconto sucessor, getters, setter, construtor)
-        * 2 - Método abstrato em Desconto para calcular o desconto (refatorando o que temos logo abaixo)
-        * 3 - (Elos da Chain) Criar as implementações de Desconto (por quantidade de valor) implementando calcular e o construtor
-        * 4 - Criar método Desconto createChain aqui no Main
-        * 5 - no main() -> Instanciar Desconto e chamar/printar o método de calcular*/
+        * Chain Pattern: Nosso sistema aplica desconto na compra com base na quantidade ou valor do pedido. Para resolver este problema, podemos aplicar o pattern Chain
+        * 1 - Começamos pela criação do HANDLER (Classe abstrata) Desconto
+        *   Deve conter:
+        *       - private Desconto sucessor
+        *       - getters, setter, construtor com o parâmetro sucessor.
+        *       - Criar método abstract double calcular(Pedido pedido) para podermos calcular o desconto (isso vai refatorar essa bagunça que o main está)
+        *
+        * 3 - (Elos da Chain) Criar as implementações de Desconto (por quantidade e valor)
+        *       DescontoPorItens extends Desconto (deve ter o construtor com o parâmetro Desconto sucessor) + sobrescrever o método calcular
+        *           Se a quantidade for maior que 10, retornamos um desconto de 50%. Do contrário, retornamos getProximo().calcular(pedido)
+        *       DescontoPorValor extends Desconto (deve ter o construtor com o parâmetro Desconto sucessor) sobrescrever o método calcular
+        *           Se o valor for maior que 1000.0, retornamos um desconto de 10%. Do contrário, retornamos getProximo().calcular(pedido)
+        *
+        * 4 - Agora, no main, precisamos criar um método que crie a nossa Chain. Este método deve retorar o Handler (Desconto).
+        *       A nossa chain é composta pelas classes que herdam de Desconto, então para criá-la devemos fazer dentro deste método:
+        *       DescontoPorItens descontoPorItens = new DescontoPorItens(null);
+        *       DescontoPorValor descontoPorValor = new DescontoPorValor(descontoPorItens);
+        *
+        *       Note como estamos indicando, no construtor, quem é o próximo elemento da Chain, caso ele próprio não consiga lidar com aquele Pedido
+        *
+        * 5 - no main() -> Desconto desconto = createChain();
+        * 6 - Agora, podemos apagar os métodos calcularDescontoQuantidade e calcularDescontoValor e calcular o desconto via: desconto.calcular(pedido)
+        */
 
     }
 
