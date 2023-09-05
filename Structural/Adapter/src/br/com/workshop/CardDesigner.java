@@ -1,7 +1,7 @@
 package br.com.workshop;
 
 /**
- * Código alvo que exige a interface Customer
+ * Código alvo que exige a interface Cliente
  */
 public class CardDesigner {
 
