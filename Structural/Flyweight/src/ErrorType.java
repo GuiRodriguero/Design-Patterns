@@ -1,3 +1,0 @@
-public enum ErrorType {
-    GENERIC_SYSTEM_ERROR, PAGE_NOT_FOUND_ERROR, SERVER_ERROR;
-}
